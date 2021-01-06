@@ -176,9 +176,14 @@ input[type="text"] {
     width: 400px;
     padding-left: 20px;
     border-radius: 5px;
-    background-color: #efefef;
-    border: navajowhite;
+    background-color: transparent;
+    border: 1px solid;
 }
+::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+  
 
 .submit {
     height: 40px;
