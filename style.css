@@ -6,16 +6,28 @@ font-family: 'Roboto', sans-serif; */
     padding: 0;
     margin: 0;
 }
+body{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#050505+0,2989d8+50,f69670+100,7db9e8+100,f69670+100 */
+background: rgb(5,5,5); /* Old browsers */
+background: -moz-linear-gradient(left,  rgb(5,5,5) 0%, rgb(41,137,216) 50%, rgb(246,150,112) 100%, rgb(125,185,232) 100%, rgb(246,150,112) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  rgb(5,5,5) 0%,rgb(41,137,216) 50%,rgb(246,150,112) 100%,rgb(125,185,232) 100%,rgb(246,150,112) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  rgb(5,5,5) 0%,rgb(41,137,216) 50%,rgb(246,150,112) 100%,rgb(125,185,232) 100%,rgb(246,150,112) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#050505', endColorstr='#f69670',GradientType=1 ); /* IE6-9 */
+
+}
 section{
     height: 500px;
     padding-bottom: 0px;
 }
 .highlight{
-    color: #FF8367;
+    color: #ff8875!important;
+}
+.top-banner h1 {
 }
 h1{
     font-size: 50px;
     font-family: 'Bebas Neue', cursive;
+    color: white;
 }
 h2{
     font-size: 40px;
@@ -24,7 +36,7 @@ h3{
     font-family: 'Roboto', sans-serif;
 }
 p{
-    color: #3E3E3E;
+    color: #d4cece;
     font-family: 'Roboto', sans-serif;
 }
 .content{
@@ -42,7 +54,7 @@ p{
 
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(45deg,#FF8367, tomato);
+    background-image: linear-gradient(45deg,#5459E4, tomato);
     padding: 11px 20px;
     border-radius: 5px;
     margin-top: 20px;
@@ -56,7 +68,6 @@ p{
 
 .lastest-work{
     padding: 70px 0px;
-    background: #F8F9FC;
     margin-top: 40px;
 }
 .lastest-work h1{
@@ -74,6 +85,7 @@ p{
     padding-right: 18px;
     border-radius: 10px;
     padding-bottom: 15px;
+    box-shadow: 4px 3px 11px 4px #443231;
 }
 
 .single-project img {
@@ -119,6 +131,60 @@ p{
     height: 450px;
 }
 
+.subscribe-area{
+    background-image: url(images/subscribe-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin: 0 70px;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.subscribe-title h1 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+}
+.subscribe-title p {
+    color: white;
+}
+
+.subscribe-title {
+    margin-top: 100px;
+}
+form {
+    height: 100px;
+    padding-top: 30px;
+    width: 50%;
+    margin: auto;
+}
+
+.single-input {
+    float: left;
+}
+
+.input-textbox {
+    margin-left: 10px;
+}
+
+input[type="text"] {
+    height: 40px;
+    width: 400px;
+    padding-left: 20px;
+    border-radius: 5px;
+    background-color: #efefef;
+    border: navajowhite;
+}
+
+.submit {
+    height: 40px;
+    width: 120px;
+    margin-left: 30px;
+    border-radius: 5px;
+    border: none;
+}
 
 footer{
     margin-top: 50px;
